@@ -1,7 +1,7 @@
 .login {
-     border: 1px  black;
-     border-radius: 4%;
-     background-color: darkslategrey;
+     border: 1px  black; /* borda do login */
+     border-radius: 4%; /* borda arredonda do login */
+     background-color: darkslategrey; /*cor de fundo do componente login */
     
 }
 
