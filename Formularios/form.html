@@ -6,53 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Formularios </title>
   <link rel="stylesheet" href="formu.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+GB+S:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <script src="nota.js"></script>
-  <h1> Crinado Formularios </h1>
-
-  <form action="#" method="get"> <!-- A tag form indica um formulario -->
-    <h2> Area de Login </h2>
-  </form>
-
-  <form class="login" action="pagina.html" method="get">
-    <h2> Area de Cadastro </h2>
-   
-   
-    <p id="email"> Digite Seu Email </p>
-    <input id="campo" type="text" > <!--Campo de texto, ou email -->
 
 
-    <p id="senha "> Digite Sua Senha </p>
-    <input type="password"> <!--Campo de senha -->
-
-
-    <br>
-    <input class="campos" type="submit" value="Login">
-
-   
-   
-    <input class="campos"
+  <form action="pagina.html" method="GET"> <!-- A tag form indica um formulario 
+    -->
+    <div class="login">
+     
     
-    type="checkbox" name="Aceite termos " id=""> aceita termos <!-- area clicavel para marca campo -->
 
-    <select name="order" id="">
-      Mais vendidos
-        <option value=" ">recentes
-      </option>
+      <div class="input-espaco">
 
-      <option value="" selected> Menor preço</option>
+       <p> Seja Bem Vindos </p>
+        <p id="item1"> Email </p>
+        
+        <input class="input-email" type="text">
+        
+        <p id="item2">Senha </p>
+        
+        <input class="input-senha" type="password">
+        
+        <br>
+        
+        <input id="item3" type="submit" 
+        value="login"  >
+      
+      </div>
 
-      <option value=""> mais vendios</option>
-    </select>
+
+    </div>
 
 
 
   </form>
-
-
-
 
 </body>
 

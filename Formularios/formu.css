@@ -1,20 +1,58 @@
+* {
+     padding: 0; 
+     margin: 0;
+}
+
 .login {
-     border: 1px  black; /* borda do login */
-     border-radius: 4%; /* borda arredonda do login */
-     background-color: darkslategrey; /*cor de fundo do componente login */
-    
-}
-
-#email { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  float: right ;
+  background-color: blue;
+  width: 50%;
+  height: 100vh;
+   display: grid;
+   
+   
  
-    text-align: left;
-     bottom: -5px;
-    
-    
 
+  
 }
 
-#campo {
-    cursor: text ; }
+#item1 {
+     margin-top: 50px;
+     padding-left: 50%;
+     font-size: larger;
+     font-family: "Open Sans";
+}
+#item2 {
+     font-family: "Open Sans";
+     padding-left: 50%;
+     font-size: larger;
+     margin-top: 10px ; 
+     
+}
+
+.input-email {
+     margin-left: 50% ;
+     border: none;
+     border-radius: 3px;
+     height: 20px;
+}
+.input-senha {
+     margin-left: 50% ;
+     border: none;
+     border-radius: 3px;
+     height: 20px ;
+}
+
+#item3 {
+     margin-left: 115px;
+     margin-top: 15px;
+     width: 100px;
+     
+}
+p {
+     margin-top: 150px;
+     padding-left: 80px;
 
     
+}
